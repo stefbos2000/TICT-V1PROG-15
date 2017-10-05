@@ -1,8 +1,7 @@
-def ticker(filename):
+def ticker():
     infile = open('pe7_4.txt', 'r')
     bestand = infile.readlines()
     infile.close()
     bestand
-    return filename
-func = ticker(filename)
+func = ticker()
 print(func)

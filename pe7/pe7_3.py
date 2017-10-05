@@ -1,3 +1,4 @@
-cijfers = {4: 'Sander', 5: 'San', 6: 'Henk', 8: 'Martijn', 3: 'Adriaan', 9: 'Pieter', 10: 'Stef', 1: 'Hans'}
-if cijfers.keys > 9:
-    print(cijfers.items())
+cijfers = {'Sander': 4, 'San': 5, 'Henk': 6, 'Martijn': 8, 'Adriaan': 3, 'Pieter': 9, 'Stef': 10, 'Hans': 1}
+for cijfer in cijfers:
+    if cijfers[cijfer] > 9:
+        print('De mensen met een cijfer hoger dan een 10 zijn: {}: {}.'.format(cijfer, cijfers[cijfer]))

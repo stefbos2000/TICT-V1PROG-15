@@ -3,4 +3,5 @@ while True:
     if len(woord) == 4:
         print('Inlezen van correcte string: {} is geslaagd'.format(woord))
         break
-    else
+    else:
+        print('Inlezen van de string {} is niet geslaagd.'.format(woord))
