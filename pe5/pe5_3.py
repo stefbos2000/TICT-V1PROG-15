@@ -1,11 +1,12 @@
 infile = open('pe5_2.txt', 'r')
 inhoud = infile.readlines()
+infile.close()
 a = len(inhoud)
+print(inhoud)
+print(max(inhoud))
 for regel in inhoud:
-    info = regel.split(', ')
-    s = info[0], info[1] = info[1], info[0]
-kaartnummer = max()
-regel = inhoud.index(kaartnummer) + 1
-
-print('Deze file telt ' + str(a) + ' regels')
-print('Het grootste kaartnummer is: ' + str(kaartnummer.strip()) + ' en dat staat op regel ' + str(regel))
+    info = regel.split(';')
+    print(info)
+print(str(info))
+print('Deze file telt {} regels'.format(a))
+print('Het grootste kaartnummer is: {} en dat staat op regel {}'.format(a, a))

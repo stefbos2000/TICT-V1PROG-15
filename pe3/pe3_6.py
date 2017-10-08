@@ -1,5 +1,4 @@
 x = 'Guido van Rossum heeft programmeertaal Python bedacht'
-klinkers = ('a', 'e', 'i', 'o', 'u')
 for letter in x:
-    if x is (klinkers):
-        print(x)
+    if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u':
+        print(letter, end= ' ')

@@ -4,6 +4,7 @@ getallenlijst = []
 for stringgetal in lossegetallen:
     getal=int(stringgetal)
     getallenlijst.append(getal)
+getallenlijst.sort()
 maxi = max(lossegetallen)
 mini = min(lossegetallen)
 aantal = len(getallenlijst)
