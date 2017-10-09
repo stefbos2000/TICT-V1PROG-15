@@ -7,6 +7,6 @@ print(max(inhoud))
 for regel in inhoud:
     info = regel.split(';')
     print(info)
-print(str(info))
+print(str(int(info[0]), str(info[1])))
 print('Deze file telt {} regels'.format(a))
 print('Het grootste kaartnummer is: {} en dat staat op regel {}'.format(a, a))
