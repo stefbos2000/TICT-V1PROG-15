@@ -10,3 +10,12 @@ def ticker():
         tickerdict[sleutel] = waarde
     return tickerdict
 print(ticker())
+bedrijfsnaam = input('Wat is de bedrijfsnaam? ')
+tickbestand = ticker()
+for naam in tickbestand:
+    if bedrijfsnaam == naam:
+        print('Ticker symbol: {}'.format(tickbestand[naam]))
+afkorting = input('Wat is de afkorting van het bedrijf? ')
+for naam in tickbestand:
+    if tickbestand[naam] == afkorting:
+        print('Ticker symbol: {}'.format(naam))
